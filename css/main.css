@@ -22,6 +22,7 @@ body {
     margin-left: 100px;
     background: url(../img/phone.jpg) no-repeat center center fixed;
     background-size: cover;
+    height: 100vh
   }
 }
 
