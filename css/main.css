@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background: url(../img/desktop.png) no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+  margin: 0 120px;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 414px) {
+  body {
+    background: url(../img/phone.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 414px) {
+  body {
+    margin-left: 60px;
+  }
+}
+
+body header {
+  margin-top: 80px;
+}
+
+@media (max-width: 900px) {
+  body header {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 414px) {
+  body header {
+    font-size: 10px;
+  }
+}
+
+body main #content {
+  position: absolute;
+  top: 300px;
+  left: 400px;
+  font-size: 30px;
+}
+
+body main #content span {
+  color: white;
+}
+
+@media (max-width: 1100px) {
+  body main #content {
+    left: 300px;
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 900px) {
+  body main #content {
+    left: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  body main #content {
+    left: 100px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 414px) {
+  body main #content {
+    left: 40px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 320px) {
+  body main #content {
+    top: 250px;
+  }
+}
+
+body footer {
+  position: absolute;
+  bottom: 20px;
+  font-size: 25px;
+  left: 520px;
+}
+
+@media (max-width: 1100px) {
+  body footer {
+    left: 400px;
+  }
+}
+
+@media (max-width: 900px) {
+  body footer {
+    left: 290px;
+  }
+}
+
+@media (max-width: 600px) {
+  body footer {
+    left: 100px;
+    bottom: 60px;
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 414px) {
+  body footer {
+    left: 80px;
+  }
+}
+
+@media (max-width: 320px) {
+  body footer {
+    left: 50px;
+    bottom: 40px;
+  }
+}
+
+body footer i {
+  padding-right: 40px;
+}
+
+@media (max-width: 414px) {
+  body footer i {
+    padding-right: 30px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  body footer i {
+    padding-right: 20px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
