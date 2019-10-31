@@ -20,6 +20,8 @@ body {
 @media (max-width: 600px) {
   body {
     margin-left: 100px;
+    background: url(../img/phone.jpg) no-repeat center center fixed;
+    background-size: cover;
   }
 }
 
