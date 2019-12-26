@@ -1,3 +1,2 @@
 # Deniswastaken.github.io
-
-simple shit
+portfolio page
