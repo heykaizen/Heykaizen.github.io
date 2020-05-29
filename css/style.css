@@ -1,0 +1,175 @@
+* {
+    font-family: "poppins";
+    padding: 0;
+    margin: 0;
+}
+
+nav,
+navbar {
+    padding: 60px 0 !important;
+}
+
+body {
+    margin: 0 200px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+i {
+    color: #333333;
+    font-size: 20px;
+    margin-left: 50px
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 24px
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 14px;
+}
+
+#hero {
+    margin-top: 90px;
+}
+
+#hero h3 {
+    padding-bottom: 10px;
+    font-weight: 600;
+    margin: 0px;
+    color: #1D3461;
+}
+
+#hero h1 {
+    padding-bottom: 16px;
+    font-weight: 600;
+    margin: 0px;
+}
+#hero h1 span{
+    color: #5096E9;
+}
+
+#hero p {
+    width: 510px;
+    line-height: 41px;
+    margin-bottom: 0;
+}
+
+.btn {
+    padding: 20px 68px !important;
+    background-color: #1F487E !important;
+    color: #ffffff;
+    margin-top: 44px;
+    border-radius: 0px;
+}
+
+.btn:hover {
+    color: #ffffff;
+}
+
+/*   BLOGS LAYOUT SECTION    */
+.blogs {
+    margin-top: 240px;
+}
+
+.cs-blog {
+    border: 1px solid #5096E9;
+}
+
+.cs-blog .s-image {
+    padding-right: 0px;
+}
+
+.cs-blog #image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cs-blog .content {
+    padding: 50px 35px;
+}
+
+.content .tag h3{
+    color: #5096E9;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 11px;
+}
+.content .title h2{
+    font-weight: bold;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 0;
+    margin-bottom: 11px;
+}
+.content .desc h3{
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0;
+    margin-bottom: 18px;
+    line-height: 27px;
+    font-weight: 400;
+}
+.content .more h3 a{
+    color: #1F487E;
+    text-decoration: underline;
+}
+.content .more h3 a:hover{
+    color: #1F487E;
+}
+
+/*      REST BLOG     */
+.cd-blog {
+
+    margin-top: 45px;
+
+}
+.cd-card {
+    border: 1px solid #5096E9;
+}
+.cd-card #image{
+    width: 100%;
+    height: 265px;
+}
+.cd-card .content{
+    padding: 28px 25px;
+}
+.cd-card .tag h3{
+    font-size: 16px;
+}
+.cd-card .title h2{
+    font-size: 22px
+}
+.cd-card .desc h3{
+    font-size: 16px;
+}
+
+/*   BLOGS LAYOUT SECTION    */
+
+/*    FOOTER SECTION*/
+footer{
+    margin-top: 135px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+}
+/*    FOOTER SECTION*/
+
+
+
+
+
