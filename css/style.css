@@ -4,8 +4,7 @@
     margin: 0;
 }
 
-nav,
-navbar {
+.navbar {
     padding: 60px 0 !important;
 }
 
@@ -22,6 +21,9 @@ i {
     color: #333333;
     font-size: 20px;
     margin-left: 50px
+}
+i .show{
+    display: none;
 }
 
 h1 {
@@ -56,7 +58,8 @@ h4 {
     font-weight: 600;
     margin: 0px;
 }
-#hero h1 span{
+
+#hero h1 span {
     color: #5096E9;
 }
 
@@ -88,7 +91,7 @@ h4 {
 }
 
 .cs-blog .s-image {
-    padding-right: 0px;
+    padding-right: 15px;
 }
 
 .cs-blog #image {
@@ -99,34 +102,40 @@ h4 {
 }
 
 .cs-blog .content {
-    padding: 50px 35px;
+    padding: 50px;
+    padding-left: 35px;
+
 }
 
-.content .tag h3{
+.content .tag h3 {
     color: #5096E9;
     font-weight: 400;
     text-transform: uppercase;
     margin-bottom: 11px;
 }
-.content .title h2{
+
+.content .title h2 {
     font-weight: bold;
     line-height: 36px;
     color: rgba(0, 0, 0, 0.8);
     margin: 0;
     margin-bottom: 11px;
 }
-.content .desc h3{
+
+.content .desc h3 {
     color: rgba(0, 0, 0, 0.6);
     margin: 0;
     margin-bottom: 18px;
     line-height: 27px;
     font-weight: 400;
 }
-.content .more h3 a{
+
+.content .more h3 a {
     color: #1F487E;
     text-decoration: underline;
 }
-.content .more h3 a:hover{
+
+.content .more h3 a:hover {
     color: #1F487E;
 }
 
@@ -136,30 +145,36 @@ h4 {
     margin-top: 45px;
 
 }
+
 .cd-card {
     border: 1px solid #5096E9;
 }
-.cd-card #image{
+
+.cd-card #image {
     width: 100%;
     height: 265px;
 }
-.cd-card .content{
+
+.cd-card .content {
     padding: 28px 25px;
 }
-.cd-card .tag h3{
+
+.cd-card .tag h3 {
     font-size: 16px;
 }
-.cd-card .title h2{
+
+.cd-card .title h2 {
     font-size: 22px
 }
-.cd-card .desc h3{
+
+.cd-card .desc h3 {
     font-size: 16px;
 }
 
 /*   BLOGS LAYOUT SECTION    */
 
 /*    FOOTER SECTION*/
-footer{
+footer {
     margin-top: 135px;
     margin-bottom: 40px;
     text-align: center;
@@ -167,55 +182,82 @@ footer{
     font-weight: 400;
     font-size: 14px;
 }
+
 /*    FOOTER SECTION*/
 
 
+/*     TABLET RESPONSIVE    */
+/*     TABLET RESPONSIVE    */
+
 /*   MOBILE RESPONSIVE*/
-@media only screen and (min-width: 414px) {
-    body{
-        margin: 0 70px;
+@media only screen and (max-width: 500px) {
+    body {
+        margin: 0 20px;
     }
-    .navbar{
+
+    .navbar {
         padding: 40px 0px !important;
     }
-    #hero{
+    .navbar i .show{
+        font-size: 16px;
+        padding-left: 10px;
+        display: inline;
+    }
+    #hero {
         margin-top: 40px;
     }
-    #hero h3{
+
+    #hero h3 {
         padding-bottom: 15px;
     }
-    #hero h1{
+
+    #hero h1 {
         padding-bottom: 20px;
+        font-size: 30px
     }
-    #hero button{
-        padding: 10px 40px !important;
+
+    #hero p {
+        width: 80%;
+        line-height: 30px
+    }
+
+    #hero button {
+        padding: 16px 50px !important;
         margin-top: 30px;
     }
-    #hero button h2{
+
+    #hero button h2 {
         font-size: 14px;
         font-weight: normal;
     }
+
     .blogs {
-        margin: 0 30px;
         margin-top: 130px;
     }
-    .cd-blog .col-lg-6{
+
+    .cd-blog .col-lg-6 {
         margin: 15px 0;
     }
-    .cd-blog .col-lg-6:first-child{
+
+    .cd-blog .col-lg-6:first-child {
         margin-top: 0;
     }
-    .cd-blog .content{
-       padding: 50px 70px;
+
+    .cd-blog .content {
+        padding: 50px !important;
+        padding-left: 20px !important;
     }
-    .cd-card #image{
+
+    .cd-card #image {
         height: 100%;
     }
-    .cd-blog .content{
+
+    .cd-blog .content {
         padding: 50px 70px;
     }
+    footer{
+        margin-top: 90px;
+    }
+}
+
 /*   MOBILE RESPONSIVE*/
-
-
-
-
