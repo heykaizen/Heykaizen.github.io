@@ -190,6 +190,28 @@ footer {
 /*     TABLET RESPONSIVE    */
 
 /*   MOBILE RESPONSIVE*/
+@media only screen and (max-width: 991px) {
+    body{
+        margin: 0 80px;
+    }
+    .navbar i .show{
+        font-size: 16px;
+        padding-left: 10px;
+        display: inline;
+    }
+        .cd-blog .col-lg-6 {
+        margin: 15px 0;
+    }
+
+    .cd-blog .col-lg-6:first-child {
+        margin-top: 0;
+    }
+        .cd-card #image {
+        height: 100%;
+    }
+}
+
+
 @media only screen and (max-width: 500px) {
     body {
         margin: 0 20px;
