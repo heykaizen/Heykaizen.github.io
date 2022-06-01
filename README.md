@@ -1,2 +1,2 @@
 # Deniswastaken.github.io
-portfolio page: https://NotDenisDaniel.github.io/
+portfolio page: https://Heykaizen.github.io/
